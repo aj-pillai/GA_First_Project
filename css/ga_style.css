@@ -1,0 +1,230 @@
+    @import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans|Quattrocento);
+    @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        margin: auto;
+    }
+    /* ----- =structure ----- */
+    
+    header {
+        height: 160px;
+        background-color: #fff;
+    }
+    
+    #content {
+        padding-top: 10px;
+        min-height: 400px;
+    }
+    /* ----- =logo ----- */
+    
+    header h1 {
+        font-family: 'Quattrocento Sans', sans-serif;
+        font-size: 40px;
+        float: left;
+        padding-top: 50px;
+        margin: 0 0 0 20px;
+    }
+    
+    header h1,
+    {
+        text-decoration: none;
+        color: #8f99a4;
+    }
+    
+    header h1 a:hover {
+        color: #777;
+    }
+    /* ----- =navigation ----- */
+    
+    #top-nav {
+        float: right;
+        margin-top: 55px;
+    }
+    
+    #top-nav ul {
+        margin: 0;
+        list-style: none;
+    }
+    
+    #top-nav ul li {
+        display: inline-block;
+        margin-left: 40px;
+    }
+    
+    #top-nav ul li a {
+        font-size: 18px;
+        color: #8f99a4;
+        text-decoration: none;
+        font-family: Quattrocento, sans-serif;
+    }
+    
+    #top-nav ul li a:hover {
+        color: #777;
+    }
+    
+    .full-width {
+        width: 100%;
+    }
+    /* ----sitting at cave profile pic*/
+    
+    .mesiwngpic {
+        float: right;
+    }
+    
+    .img-circle-logo {
+        border-radius: 50%;
+        float: right;
+        zoom: 25%;
+        -moz-transform: scale(.25);
+        -moz-transform-origin: 0 0;
+    }
+    
+    #content img {
+        border: 1px #b4b4b4;
+    }
+    
+    #content .img-25 {
+        border: 1px #b4b4b4;
+        padding: 25px;
+    }
+    
+    .center-block {
+        margin: auto;
+        border: 0;
+    }
+    
+    ul li p {
+        margin: .25em;
+    }
+    
+    label {
+        padding-bottom: 5em !important;
+    }
+    
+    .iframe-corners {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .rounded_border_only {
+        width: 300px;
+        color: #000;
+        background: #C5DFC5;
+        padding: 20px;
+        border: 3px solid #4db4c7;
+        border-radius: 10px;
+    }
+    
+    .brand-img {
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 40px;
+        color: cadetblue;
+    }
+    
+    .img-circle {
+        border-radius: 50%;
+    }
+    
+    body {
+        background-color: cadetblue
+    }
+    
+    .center {
+        margin: auto;
+        width: 20%;
+        padding: 25px;
+        text-align: center;
+    }
+    
+    img.center {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    h2 {
+        font-family: 'Jacques Francois Shadow', cursive;
+        font-size: 35px;
+    }
+    
+    h3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 24px;
+    }
+    
+    h6 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+    }
+    
+    h5 {
+        font-family: 'Jacques Francois Shadow', cursive;
+        font-size: 20px;
+    }
+    
+    p {
+        font-family: 'Montserrat', sans-serif;
+        margin: auto;
+        padding: inherit;
+    }
+    
+    .one_third {
+        width: 300px;
+    }
+    
+    .full_column {
+        width: 940px;
+    }
+    
+    .one_third,
+    .full_column {
+        float: left;
+        margin: 20px;
+    }
+    
+    @media (max-width: 500px) {
+        h2 {
+            font-size: 20px;
+            margin: 20px 0 30px 0;
+        }
+        div {
+            margin: 20px 12px 0 12px;
+        }
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            line-height: 28px;
+        }
+        .brand-img {
+            font-family: 'Shadows Into Light', cursive;
+            font-size: 25px;
+            color: cadetblue;
+        }
+        .img-circle-logo {
+            border-radius: 50%;
+            float: right;
+            zoom: 10%;
+        }
+        #top-nav ul {
+            margin: -15px;
+            list-style: none;
+        }
+        .img-circle {
+            border-radius: 50%;
+        }
+        h2 {
+            font-family: 'Jacques Francois Shadow', cursive;
+            font-size: 35px;
+        }
+        h6 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+        }
+        h5 {
+            font-family: 'Jacques Francois Shadow', cursive;
+            font-size: 20px;
+        }
+        .center {
+            padding: 0;
+            width: 50%;
+        }
+    }

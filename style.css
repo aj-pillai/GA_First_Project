@@ -1,0 +1,29 @@
+ .img-circle {
+     border-radius: 50%;
+ }
+ 
+ body {
+     background-color: cadetblue
+ }
+ 
+ .center {
+     margin: auto;
+     width: 20%;
+     padding: 25px;
+ }
+ 
+ p {
+     margin: auto;
+     width: 30%;
+     padding: inherit;
+ }
+ 
+ h1 {
+     font-family: 'Jacques Francois Shadow', cursive;
+     font-size: 70px;
+ }
+ 
+ p,
+ h2 {
+     font-family: 'Montserrat', sans-serif;
+ }
